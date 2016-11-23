@@ -12,7 +12,7 @@
     position: absolute;
     top: 20px;
     left: 12px;
-    background-color: #7FFFE2;
+    background-color: $notify-bubble-color;
     border-radius: 10px;
     width: 6px;
     height: 6px;
@@ -70,6 +70,14 @@
     }
 
   }
+}
+.dg-dropdown-caret{
+  display: inline-block;
+  background-image: url('../images/caret-down-white.svg');
+  background-repeat: no-repeat;
+  margin-left: 5px;
+  width: 9px;
+  height: 6px;
 }
 .dg-collection-nav{
   background-color: $grey-color-lighter;
