@@ -1,0 +1,39 @@
+.h-state{
+  font-size: $small-font-size;
+  display: inline-block;
+  vertical-align: middle;
+  color: $text-color;
+  text-transform: uppercase;
+  font-weight: 400;
+  &.h-state-valid{
+    color: $status-valid;
+  }
+}
+.has-error{
+  input[type=text]{
+    border-color: $status-warning;
+    &:focus{
+      border-color: $status-warning;
+    }
+  }
+}
+.text-error{
+  color: $status-warning;
+}
+.is-disabled{
+  &.coupon-card{
+    .tile-thumbnail, .coupon-card_name, .coupon-card_name + strong, .coupon-card_metalist{
+      opacity: .5;
+    }
+    .coupon-card_actions .coupon-card_metalist{
+      opacity: 1;
+    }
+
+  }
+}
+.is-open{
+  .ui-modal{
+    overflow-x: hidden;
+    overflow-y: auto;
+  }
+}

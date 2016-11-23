@@ -1,0 +1,165 @@
+/**
+ * Reset some basic elements
+ */
+body, h1, h2, h3, h4, h5, h6,
+p, blockquote, pre, hr,
+dl, dd, ol, ul, figure {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/**
+ * Basic styling
+ */
+body {
+    font-family: $base-font-family;
+    font-size: $base-font-size;
+    line-height: $base-line-height;
+    font-weight: 400;
+    color: $text-color;
+    background-color: $background-color;
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+}
+
+
+
+/**
+ * Set `margin-bottom` to maintain vertical rhythm
+ */
+h1, h2, h3, h4, h5, h6,
+p, blockquote, pre,
+ul, ol, dl, figure,
+%vertical-rhythm {
+    margin-bottom: $spacing-unit / 2;
+}
+h2,h3,h4{
+    font-weight: 700;
+}
+h1{
+    font-size: 42px;
+    font-weight: 200;
+}
+h2{
+    font-size: 24px;
+}
+h3{
+    font-size: 20px;
+}
+h4{
+    font-size: 18px;   
+}
+h5{
+    font-size: 15px;
+    text-transform: uppercase;
+}
+h6{
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: $small-font-size;
+}
+h1,h2,h3,h4,h5,h6{
+    &.light{
+        font-weight: 400;
+    }
+}
+/**
+ * Images
+ */
+img {
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+
+small{
+    font-size: $small-font-size;
+}
+/**
+ * Figures
+ */
+figure > img {
+    display: block;
+}
+
+figcaption {
+    font-size: $small-font-size;
+}
+
+
+
+
+/**
+ * Links
+ */
+a {
+    color: $brand-color;
+    text-decoration: none;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+strong{
+    font-weight: 700;
+}
+/**
+ * Blockquotes
+ */
+blockquote {
+    color: $grey-color;
+    border-left: 4px solid $grey-color-light;
+    padding-left: $spacing-unit / 2;
+    font-size: 18px;
+    letter-spacing: -1px;
+    font-style: italic;
+
+    > :last-child {
+        margin-bottom: 0;
+    }
+}
+button, input{
+    outline: none;
+}
+a.logo{
+    float: left;
+    width: 166px;
+    height: 25px;
+    background-image: url(../images/dg-logo.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    line-height: 1;
+    margin-top: 15px;
+    text-indent: -9999px;
+}
+.u-full-width{
+    width: 100%;
+    box-sizing: border-box;
+}
+.see-more{
+    font-weight: 700;
+}
+.pull-left{
+    float: left;
+}
+.pull-right{
+    float: right;
+}
+/**
+ * Clearfix
+ */
+
+.clearfix {
+
+    &:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+}
+
+
+

@@ -1,0 +1,24 @@
+.subnav-list{
+  border-bottom: 1px solid $grey-color-light;
+  margin-bottom: 30px;
+  li{
+    display: inline-block;
+    > a{
+      font-weight: 700;
+      text-decoration: none;
+      color: $grey-color-dark;
+      display: inline-block;
+      padding: 20px 30px;
+      font-size: $large-font-size;
+      border-bottom: 2px solid transparent;
+      margin-bottom: -1px;
+      &:hover{
+        color: $text-color;
+      }
+      &.is_selected{
+        border-bottom: 2px solid $brand-color;
+        color: $text-color;
+      }
+    }
+  }
+}

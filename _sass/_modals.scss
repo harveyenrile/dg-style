@@ -1,0 +1,78 @@
+.ui-modal{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1050;
+  display: none;
+  overflow: hidden;
+  -webkit-overflow-scrolling: touch;
+  outline: 0;
+}
+.ui-modal-box{
+  position: relative;
+  width: auto;
+  max-width: 600px;
+  margin: 30px;
+}
+.ui-modal-content{
+  position: relative;
+  background-color: #ffffff;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  outline: 0;
+  -webkit-box-shadow: 0 2px 12px rgba(0,0,0,.2);
+  box-shadow: 0 2px 12px rgba(0,0,0,.2);
+}
+.ui-modal-header,
+.ui-modal-body,
+.ui-modal-section,
+.ui-modal-footer{
+  padding: 20px 30px;
+}
+.ui-modal-header{
+  h4{
+    margin-bottom: 0;
+  }
+  .ui-modal-close{
+    float: right;
+    display: block;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    opacity: .3;
+    background-image: url(../images/close.svg);
+    width: 18px;
+    height: 18px;
+    transition: .15s linear opacity;
+    margin-top: 5px;
+    &:hover{
+      opacity: .7;
+    }
+  }
+}
+.ui-modal-body{
+  
+}
+.ui-modal-footer{
+
+}
+
+.ui-block-selection{
+  padding: 0 0 20px 0;
+  margin-bottom: 20px;
+  border-bottom: 1px solid $grey-color-light;
+  .ui-block-selection_value{
+    font-size: $large-font-size;
+    &.coupon-qty{
+      font-size: $xxxlarge-font-size;
+    }
+  }
+  h6{
+    margin-bottom: 0;
+  }
+  .ui-block-selection-edit,
+  .ui-qty-selector{
+    float: right;
+  }
+}

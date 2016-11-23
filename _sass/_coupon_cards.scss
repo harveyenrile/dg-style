@@ -1,0 +1,32 @@
+.coupon-card{
+  position: relative;
+  border-bottom: 1px solid $grey-color-light;
+  min-height: 150px;
+  padding-bottom: 15px;
+  margin-bottom: 30px;
+}
+.coupon-card_name{
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+.coupon-card_metalist{
+  margin: 5px 0;
+  li{
+    display: inline-block;
+    margin-right: 15px;
+  }
+}
+.coupon-card_actions{
+  .coupon-card_metalist{
+    float: left;
+    a{
+      color: $grey-color-dark;
+      font-weight: 700;
+    }
+  } 
+}
+.coupon-card_download{
+  position: absolute;
+  right: 0;
+  top: 20%;
+}

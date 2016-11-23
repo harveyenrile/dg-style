@@ -1,0 +1,23 @@
+button.ui-qty-selector-button{
+  display: inline-block;
+  width: 46px;
+  height: 46px;
+  background-size: 100%;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  vertical-align: middle;
+  cursor: pointer;
+  position: relative;
+  margin: 0 5px;
+  &:active{
+    transform: scale(.98);
+    -webkit-transform: scale(.98);
+  }
+}
+.ui-qty-selector-plus{
+  background-image: url(../images/qty-plus.svg);
+}
+.ui-qty-selector-minus{
+  background-image: url(../images/qty-minus.svg); 
+}

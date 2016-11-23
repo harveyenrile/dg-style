@@ -1,0 +1,35 @@
+---
+layout: default
+---
+
+<div class="container">
+  <div class="columns three">
+    <ul class="doc-nav-list mtb30">
+      <li><a href="#Hero">Hero</a></li>
+      <li><a href="#CollectionHeading">Collection Heading</a></li>
+      <li><a href="#Tiles">Tiles</a></li>
+      <li><a href="#NavMenu">Nav Menu</a></li>
+      <li><a href="#SecondaryNav">Secondary Nav</a></li>
+      <li><a href="#Button">Buttons</a></li>
+      <li><a href="#Forms">Forms</a></li>
+      <li><a href="#CouponCards">Coupon Cards</a></li>
+    </ul>
+  </div>
+  <div class="columns nine mtb30">
+    {% include doc_hero.html %}
+    {% include doc_collection_heading.html %}
+    {% include doc_tiles.html %}
+    {% include doc_nav_menu.html %}
+    {% include doc_secondary_nav.html %}
+    {% include doc_buttons.html %}
+    {% include doc_forms.html %}
+    
+
+  </div>
+  
+</div>
+<div class="clearfix"></div>
+<div class="container">
+  {% include doc_coupon_cards.html %}
+  {% include doc_modals.html %}
+</div>

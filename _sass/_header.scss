@@ -1,0 +1,108 @@
+.dg-header{
+  background-color: $brand-color;
+  border-bottom: 2px solid darken($brand-color, 5%);
+
+}
+.dg-header-item{
+  float: right;
+  line-height: 60px;
+  height: 60px;
+  position: relative;
+  &.has_notify:before{
+    position: absolute;
+    top: 20px;
+    left: 12px;
+    background-color: lighten($status-valid, 30%);
+    border-radius: 10px;
+    width: 6px;
+    height: 6px;
+    content: "";
+  }
+  &.is_hoverable{
+    &:hover{
+      cursor: pointer;
+      background-color: darken($brand-color, 3%);
+    }
+  }
+  > a:first-child{
+    color: #fff;
+    padding: 0 25px;
+    display: block;
+    
+  }
+  a{
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .dg-checkout-btn{
+    display: block;
+    border-radius: 6px;
+    border: 2px solid lighten($brand-color, 10%);
+    margin-top: 11px;
+    padding: 0 !important;
+    overflow: hidden;
+    margin-left: 20px;
+    &:hover{
+      > strong{
+          background-color: darken($brand-color, .5%);
+          
+        }  
+    }
+    &:after {
+        content: "";
+        display: table;
+        clear: both;
+    } 
+    .items-in-cart{
+      float: left;
+      line-height: 35px;
+      background-color: darken($brand-color, 5%);
+      display: block;
+      padding: 0 15px;
+    }
+    > strong{
+      float: left;
+      line-height: 35px;
+      display: block;
+      padding: 0 15px;
+      transition: .1s linear background-color;
+      background-color: lighten($brand-color, 10%);
+    }
+
+  }
+}
+.dg-collection-nav{
+  background-color: $grey-color-lighter;
+  > .container{
+    display: flex;
+    display: -moz-flex;
+    display: -webkit-flex;
+    > a{
+      letter-spacing: 1.5px;
+      text-align: center;
+      color: $text-color;
+      padding: 15px;
+      white-space: nowrap;
+      overflow: hidden;
+      text-transform: uppercase;
+      text-decoration: none;
+      font-weight: 600;
+      display: block;
+      flex-grow: 1;
+      -moz-flex-grow: 1;
+      -webkit-flex-grow: 1;
+      border-bottom: 2px solid transparent;
+      transition: .1s linear background-color;
+      &:hover{
+        background-color: darken($grey-color-lighter, 3%);
+      }
+      &.is_selected{
+        border-bottom: 2px solid $brand-color;
+        &:hover{
+          background-color: $grey-color-lighter;
+        }
+      }
+    }
+  }
+  
+}

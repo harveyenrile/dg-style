@@ -1,0 +1,41 @@
+label{
+  display: block;
+  margin-bottom: 7px;
+  &.u-form-label{
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: $small-font-size;
+  }
+}
+input[type=text],
+input[type=password],
+select, textarea{
+  border-radius: 2px;
+  height: 40px;
+  background-color: #ffffff;
+  font-size: $base-font-size;
+  border: 1px solid $grey-color-dark;
+  padding: 0 10px;
+  box-sizing: border-box;
+  font-family: $base-font-family;
+  margin-bottom: 1em;
+  &:focus{
+    border-color: $brand-color;
+  }
+  &[disabled]{
+    cursor: not-allowed;
+    background-color: $grey-color-lighter;
+    border-color: $grey-color-light;
+  }
+}
+textarea{
+  min-height: 200px;
+}
+.u-form-group{
+  // margin-bottom: 10px;
+  vertical-align: top;
+}
+.u-form-group-inline{
+  display: inline-block;
+  margin-right: 10px;
+}
