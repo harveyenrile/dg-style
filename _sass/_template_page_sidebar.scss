@@ -1,0 +1,24 @@
+.page-sidebar{
+  text-align: center;
+  h1{
+    font-size: $xlarge-font-size;
+    font-weight: 600;
+  }
+}
+.page-sidebar-panel{
+  margin-bottom: 20px;
+}
+
+.product-sidebar-price{
+  h2{
+    font-weight: 600;
+    margin-bottom: 0;
+  }
+  .text-original-price{
+    font-size: $base-font-size;
+    display: inline-block;
+    vertical-align: middle;
+    font-style: italic;
+    font-weight: 400;
+  }
+}

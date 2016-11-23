@@ -86,6 +86,14 @@ a.ui-button{
     height: 32px;
   }
 }
+.ui-button-full-width{
+  display: block;
+  width: 100%;
+}
+.ui-button-large{
+  font-size: $large-font-size;
+  line-height: .8;
+}
 .ui-button-pill{
   border-radius: 30px;
   padding: .2em .7em;

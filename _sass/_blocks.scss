@@ -9,6 +9,9 @@
     font-size: 18px;
   }
 }
+.page-content{
+  margin-top: 50px;
+}
 .collection-title{
   margin-bottom: 20px;
   border-bottom: 1px solid $grey-color-light;
@@ -31,11 +34,4 @@
   background-color: $status-default;
   overflow: hidden;
   zoom: 1;
-}
-.mtb30{
-  margin-top: 30px;
-  margin-bottom: 30px;
-}
-.mb30{
-  margin-bottom: 30px;
 }

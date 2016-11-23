@@ -1,0 +1,39 @@
+.nav-tabs{
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  -webkit-box-align: center;
+  align-items: center;
+  align-content: center;
+  padding: 0 20px;
+  margin: 20px 0 0 0;
+  border-bottom: 1px solid $grey-color-light;
+  > li{
+    margin-left: -1px;
+    -webkit-box-flex: 1;
+    -moz-box-flex: 1;
+    box-flex: 1;
+    flex: 1;
+    -webkit-flex: 1;
+    -moz-flex: 1;
+    cursor: pointer;
+    margin-bottom: -1px;
+    &.is-active{
+      a{
+        background-color: #ffffff;
+        border-bottom: 1px solid transparent;
+      }
+    }
+  }
+  a{
+    color: $text-color;
+    text-decoration: none;
+    font-weight: 700;
+    display: block;
+    padding: 10px; 
+    background-color: $grey-color-lighter;
+    border: 1px solid $grey-color-light;
+  }
+}
