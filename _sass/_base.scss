@@ -54,6 +54,7 @@ h4{
 h5{
     font-size: 15px;
     text-transform: uppercase;
+    font-weight: bold;
 }
 h6{
     font-weight: bold;
@@ -154,7 +155,13 @@ a.logo{
 /**
  * Clearfix
  */
-
+ul.styled-list{
+    margin-left: 20px;
+    li{
+        list-style: disc;
+        margin-bottom: 20px;
+    }
+}
 .clearfix {
 
     &:after {
