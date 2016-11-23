@@ -27,7 +27,11 @@
     }
   }
 }
-
+.block-notification{
+  background-color: $status-default;
+  overflow: hidden;
+  zoom: 1;
+}
 .mtb30{
   margin-top: 30px;
   margin-bottom: 30px;
