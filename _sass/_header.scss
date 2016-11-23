@@ -5,8 +5,8 @@
 }
 .dg-header-item{
   float: right;
-  line-height: 60px;
-  height: 60px;
+  line-height: 52px;
+  height: 52px;
   position: relative;
   &.has_notify:before{
     position: absolute;
@@ -38,7 +38,7 @@
     display: block;
     border-radius: 6px;
     border: 2px solid lighten($brand-color, 10%);
-    margin-top: 11px;
+    margin-top: 7px;
     padding: 0 !important;
     overflow: hidden;
     margin-left: 20px;
