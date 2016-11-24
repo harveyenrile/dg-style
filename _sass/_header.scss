@@ -1,6 +1,8 @@
 .dg-header{
   background-color: $brand-color;
   border-bottom: 2px solid darken($brand-color, 5%);
+  position: relative;
+  z-index: 100;
 
 }
 .dg-header-item{
