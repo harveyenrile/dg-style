@@ -14,7 +14,7 @@ select, textarea{
   height: 40px;
   background-color: #ffffff;
   font-size: $base-font-size;
-  border: 1px solid $grey-color-dark;
+  border: 1px solid $grey-color;
   padding: 0 10px;
   box-sizing: border-box;
   font-family: $base-font-family;
@@ -28,6 +28,27 @@ select, textarea{
     border-color: $grey-color-light;
   }
 }
+.radio{
+  margin-right: 10px;
+  display: inline-block;
+  input[type="radio"]{
+    display: inline-block;
+  }
+  label{
+    display: inline-block;
+  }
+}
+.select{
+  position: relative;
+  vertical-align: middle;
+  display: inline-block;
+  margin-right: 5px;
+  select{
+    -webkit-appearance: none;
+    padding: 0 2.3em 0 1em;
+  }  
+}
+
 textarea{
   min-height: 200px;
 }

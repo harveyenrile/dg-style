@@ -5,7 +5,7 @@ a.ui-button{
   cursor: pointer;
   font-family: inherit;
   font-size: 100%;
-  padding: .7em 1.4em;
+  padding: .7em 1.8em;
   color: #fff;
   height: 39px;
   font-size: $base-font-size;
@@ -20,7 +20,7 @@ a.ui-button{
   display: inline-block;
   transition: .1s linear background-color;
   box-sizing: border-box;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1em;
   &:hover{
     background-color: lighten($grey-color-dark, 4%);
   }
