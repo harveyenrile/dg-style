@@ -20,6 +20,11 @@
   transform: translateZ(0);
   -webkit-animation: load8 1.1s infinite linear;
   animation: load8 1.1s infinite linear;
+  &.loader-large{
+    border-width: .34em;
+    width: 2em;
+    height: 2em;
+  }
 }
 
 @-webkit-keyframes load8 {
