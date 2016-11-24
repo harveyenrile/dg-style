@@ -1,4 +1,6 @@
 .hero{
+  padding-top: 50px;
+  padding-bottom: 50px;
   h1{
     font-weight: 300;
     margin-bottom: 10px;
@@ -38,4 +40,7 @@
   background-color: $status-default;
   overflow: hidden;
   zoom: 1;
+}
+.page-section-panel{
+  margin-top: 50px;
 }

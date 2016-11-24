@@ -1,0 +1,29 @@
+.slider-nav{
+  .slider-nav-arrow{
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    width: 13px;
+    height: 22px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    transition: .15s linear opacity;
+    &.slick-disabled{
+      opacity: 0;
+      cursor: default;
+    }
+  }
+
+  .slider-nav-arrow-left{
+    background-image: url(../images/caret-left.svg);
+    left: -36px;
+  }
+  .slider-nav-arrow-right{
+    background-image: url(../images/caret-right.svg);
+    right: -36px;
+  }
+}

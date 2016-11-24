@@ -140,14 +140,17 @@
 }
 
 // location tile
+.location-tiles{
+  position: relative;
+}
 .ui-tile-location, a.ui-tile-location{
   padding: 35px 30px;
-  max-width: 180px;
-  margin-right: 15px;
+  // max-width: 180px;
+  // margin-right: 15px;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
-  min-width: 180px;
+  min-width: 120px;
   text-align: center;
   display: inline-block;
   vertical-align: middle;

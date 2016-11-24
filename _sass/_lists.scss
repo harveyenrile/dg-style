@@ -1,0 +1,31 @@
+// LOCATION LIST
+
+.location-list{
+  border-top: 1px solid $grey-color-light;
+  border-bottom: 1px solid $grey-color-light;
+  overflow: hidden;
+  zoom: 1;
+  h5{
+    padding-top: 15px;
+  }
+}
+.location-column-manila{
+  border-right: 1px solid $grey-color-light;
+  min-height: 270px;
+}
+.location-column-manila,
+.location-column-outside-metro-manila{
+  li{
+    float: left;
+    width: 33.3333333%;
+    a{
+      margin-bottom: 20px;
+      display: inline-block;  
+    }
+  }
+}
+.location-column-outside-metro-manila{
+  li{
+    width: 25%;
+  }
+}

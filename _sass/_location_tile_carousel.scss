@@ -1,0 +1,15 @@
+.featured-location-tiles-slider{
+  overflow: hidden;
+  white-space: nowrap;
+  margin-bottom: 30px;
+  .ui-tile-location{
+    margin: 5px;
+    
+    &:first-child{
+      margin-left: 0;
+    }
+    &:last-child{
+      margin-right: 0;
+    }
+  }
+}
