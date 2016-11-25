@@ -1,8 +1,33 @@
 .collections-slider{
   overflow: hidden;
   white-space: nowrap;
-  margin-bottom: 30px;
   .ui-tile-collection{
     padding: 0 5px;
+    display: inline-block;
   }
+}
+
+.featured-location-tiles-slider{
+  overflow: hidden;
+  white-space: nowrap;
+  margin-bottom: 25px;
+  .ui-tile-location{
+    margin: 5px;
+    display: inline-block;
+  }
+}
+
+.merchant-collections-slider{
+  white-space: nowrap;
+  overflow: hidden;
+  .ui-tile-merchant{
+    display: inline-block;
+    margin: 5px;
+  }
+}
+
+.collections-slider,
+.featured-location-tiles-slider,
+.merchant-collections-slider{
+  margin-left: -5px;
 }

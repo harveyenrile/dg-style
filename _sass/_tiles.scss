@@ -3,6 +3,7 @@
   max-width: 300px;
   min-width: 200px;
   margin-bottom: 30px;
+  outline: none;
   a.ui-tile-img{
     margin-bottom: 15px;
     position: relative;
@@ -92,6 +93,7 @@
 .ui-tile-merchant{
   position: relative;
   display: block;
+  outline: none;
   > img{
     min-height: 230px;
     width: 100%;
@@ -110,9 +112,11 @@
     color: #fff;
     width: 100%;
     z-index: 2;
-    h4{
+    h5{
       margin: 0;
       font-weight: 700;
+      display: block;
+      text-transform: none;
     }
   }
   &:after{
@@ -134,7 +138,7 @@
 // collection tile
 .ui-tile-collection, a.ui-tile-collection{
   color: $text-color;
-  display: inline-block;
+  display: block;
   text-decoration: none;
   outline: none;
   vertical-align: top;
@@ -168,7 +172,7 @@
   white-space: nowrap;
   min-width: 120px;
   text-align: center;
-  display: inline-block;
+  display: block;
   vertical-align: middle;
   background-size: cover;
   color: #fff;

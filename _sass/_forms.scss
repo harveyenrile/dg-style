@@ -14,6 +14,7 @@ select, textarea{
   height: 40px;
   background-color: #ffffff;
   font-size: $base-font-size;
+  outline: none;
   border: 1px solid $grey-color;
   padding: 0 10px;
   box-sizing: border-box;
@@ -43,6 +44,17 @@ select, textarea{
   vertical-align: middle;
   display: inline-block;
   margin-right: 5px;
+  &:before{
+    content: "";
+    background-image: url('../images/arrow-down.svg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 15px;
+    top: 19px;
+    width: 7px;
+    height: 3.5px;
+  }
   select{
     -webkit-appearance: none;
     padding: 0 2.3em 0 1em;
