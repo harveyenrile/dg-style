@@ -126,17 +126,23 @@
   }
 }
 
+.ui-tile-title{
+  text-decoration: none;
+  white-space: normal;
+}
+
 // collection tile
 .ui-tile-collection, a.ui-tile-collection{
   color: $text-color;
-  display: block;
+  display: inline-block;
   text-decoration: none;
+  outline: none;
+  vertical-align: top;
   .ui-tile-collection-thumb-grid img{
     float: left;
     width: 50%;
   }
   .ui-tile-title{
-    text-decoration: none;
     h4{
       margin: 0 0 5px 0;
       font-weight: 700;
@@ -156,6 +162,7 @@
   padding: 35px 30px;
   // max-width: 180px;
   // margin-right: 15px;
+  vertical-align: top;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;

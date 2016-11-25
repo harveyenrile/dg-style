@@ -5,29 +5,35 @@ permalink: /home-page/
 ---
 <img src="https://dxjamgtjhgl48.cloudfront.net/uploads/dashboard_banner/image/582c3daac8e7d00bd100000a/CostaPacifica_Dashboard-Ads-Template.jpg">
 <div class="page-content">
+
   <div class="page-section-panel clearfix">
     <div class="container">
       <div class="collection-title">
         <h4>Discover Deals</h4>
       </div>  
       {% include template_deals.html %}
-
     </div>
-    
   </div>
 
-  <!-- END COLLECTION -->
+  <!-- LOCATIONS -->
   <div class="page-section-panel clearfix">
     <div class="container">
       {% include template_locations.html  %}    
     </div>
   </div>
-
+  <!-- COLLECTIONS -->
+  <div class="page-section-panel clearfix">
+    <div class="container">
+      <div class="collection-title">
+        <h4>Recommended Collections</h4>
+      </div>  
+      {% include template_collection_tiles.html %}
+    </div>
+  </div>
+  <!-- MORE DEALS -->
   <div class="page-section-panel clearfix">
     <div class="container">
       {% include template_deals.html %}
     </div>
   </div>
-  
-  
 </div>

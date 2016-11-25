@@ -6,9 +6,11 @@
     slidesToShow: 4,
     arrows: true,
     infinite: false,
-    slides: '.ui-tile-location',
-    prevArrow: '.slider-nav-arrow-left',
-    nextArrow: '.slider-nav-arrow-right'
+  });
+  $('.collections-slider').slick({
+    slidesToShow: 4,
+    infinite: false,
+    arrows: true,
   });
   $('ul.nav-tabs li').click(function(){
     $('ul.nav-tabs li').removeClass('is-active');
