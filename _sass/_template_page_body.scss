@@ -34,3 +34,11 @@ blockquote.product-description-quote{
     vertical-align: -0.3em;
   }
 }
+
+.offset-vouchers-content{
+  background-color: #fff;
+  position: relative;
+  z-index: 3;
+  margin-top: -80px;
+  box-shadow: 0 0 30px rgba(0,0,0,.15);
+}

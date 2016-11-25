@@ -9,6 +9,10 @@
   overflow: hidden;
   -webkit-overflow-scrolling: touch;
   outline: 0;
+  &.ui-modal-static{
+    position: relative;
+    display: block;
+  }
 }
 .ui-modal-box{
   position: relative;
