@@ -1,0 +1,12 @@
+.table-row{
+  width: 100%;
+  display: table;
+  margin-bottom: 20px;
+  .table-cell{
+    display: table-cell;
+    vertical-align: top;
+    &.numeric{
+      text-align: right;
+    }
+  }
+}

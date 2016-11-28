@@ -63,19 +63,7 @@ ul.doc-nav-list{
   }
 }
 
-.dg-header-item{
-  .ui-nav-dropdown{
-    position: absolute;
-    z-index: 1;
-    display: none;
-    right: -10%;
-  }
-  &:hover{
-    .ui-nav-dropdown{
-      display: block;
-    }
-  }
-}
+
 .doc-section{
   .ui-modal{
     display: block;

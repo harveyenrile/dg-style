@@ -73,3 +73,11 @@ textarea{
   display: inline-block;
   margin-right: 10px;
 }
+.input-w-prefix{
+  display: inline-block;
+  margin-right: 10px;
+  input[type=text],
+  input[type=num]{
+    
+  }
+}
