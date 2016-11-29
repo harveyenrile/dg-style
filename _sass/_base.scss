@@ -98,7 +98,7 @@ figcaption {
 a {
     color: $brand-color;
     text-decoration: none;
-
+    cursor: pointer;
     &:hover {
         text-decoration: underline;
     }
@@ -151,6 +151,9 @@ a.logo{
 }
 .text-right{
     text-align: right;
+}
+.text-large{
+    font-size: 120%;
 }
 .pull-left{
     float: left;
