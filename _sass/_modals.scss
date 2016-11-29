@@ -14,11 +14,52 @@
     display: block;
   }
 }
+// add .modal-open to body class
+.modal-open{
+  overflow: hidden;
+  // position: fixed;
+  height: 100%;
+  width: 100%;
+  .ui-modal{
+    overflow-x: hidden;
+    overflow-y: auto;  
+  }
+  
+}
 .ui-modal-box{
   position: relative;
   width: auto;
   max-width: 600px;
   margin: 30px;
+}
+.ui-modal-box-cart{
+  max-width: 100%;
+  .ui-button-o{
+    margin-bottom: 0;
+  }
+  .modal-cart-item{
+    margin-bottom: 0;
+    border-top: 1px solid $grey-color-light;
+  }
+  .coupon-card{
+    padding-bottom: 0;
+  }
+  .cart-item-summary{
+    margin-bottom: 30px;
+    h1,h3{
+      margin-bottom: 0;
+    }
+  }
+  .installment-panel{
+    border: 2px solid $grey-color-lighter;
+    border-radius: 4px;
+    padding: 15px;
+    strong.installment-panel-title{
+      color: $status-highlight;
+      margin-bottom: 10px;
+      display: block;
+    }
+  }
 }
 .ui-modal-content{
   position: relative;
@@ -36,6 +77,9 @@
   padding: 20px 30px;
 }
 .ui-modal-footer{
+  &.bordered{
+    border-top: 1px solid $grey-color-light;
+  }
   .ui-button{
     margin-bottom: 0;
   }

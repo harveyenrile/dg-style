@@ -2,11 +2,25 @@
   width: 100%;
   display: table;
   margin-bottom: 20px;
+  box-sizing: border-box;
   .table-cell{
     display: table-cell;
-    vertical-align: top;
+    vertical-align: middle;
     &.numeric{
       text-align: right;
     }
+  }
+}
+.table-row-header{
+  h5, h6{
+    margin-bottom: 0;
+  }
+}
+
+// Cart Summary Table
+.table-row-total,.table-row-actual{
+  .table-cell:first-child{
+    width: 280px;
+    text-align: right;
   }
 }

@@ -1,6 +1,11 @@
 body{
   background-color: #ffffff;
 }
+.doc-mobile-container{
+  max-width: 375px;
+  border: 2px solid $grey-color-light;
+  margin: 0 auto;
+}
 .doc-header{
   background-color: $brand-color;
   color: #fff;
