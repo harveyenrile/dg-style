@@ -11,7 +11,7 @@ a.ui-button{
   height: 39px;
   font-size: $base-font-size;
   font-weight: 700;
-  box-shadow: 0 1px 0 darken($grey-color-dark, 7%);
+  box-shadow: 0 1px 0 darken($grey-color-dark, 5%);
   border: 0 rgba(0,0,0,0);
   background-color: $grey-color-dark;
   text-decoration: none;
@@ -31,12 +31,12 @@ a.ui-button{
 }
 .ui-button-primary{
   background-color: $brand-color;
-  box-shadow: 0 1px 0 darken($brand-color, 7%);
+  box-shadow: 0 1px 0 darken($brand-color, 5%);
   &:hover{
     background-color: lighten($brand-color, 4%);
   }
   &:active{
-    background-color: darken($brand-color, 8%);
+    background-color: darken($brand-color, 7%);
   }
 }
 .ui-button-disabled{
