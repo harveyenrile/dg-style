@@ -5,6 +5,12 @@
 .mb30{
   margin-bottom: 30px;
 }
+.mb5{
+  margin-bottom: 5px;
+}
+.mb10{
+  margin-bottom: 10px;
+}
 .mb20{
   margin-bottom: 20px;
 }
@@ -13,4 +19,7 @@ hr{
   margin-bottom: 15px;
   border: 0;
   border-top: 1px solid $grey-color-light;
+  &.dotted{
+    border-top: none;
+  }
 }

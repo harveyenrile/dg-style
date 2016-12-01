@@ -1,0 +1,29 @@
+.payment-sidebar{
+  border: 1px solid $grey-color-light;
+  background-color: $grey-color-lighter;
+  border-radius: 4px;
+  padding: 15px;
+  box-sizing: border-box;
+}
+.payment-option-selectable{
+  border-top: 1px solid $grey-color-light;
+  overflow: hidden;
+  zoom: 1;
+  padding: 30px 0 20px 0;
+  cursor: pointer;
+  .collection-title{
+    margin-bottom: 0;
+  }
+  .i-round-check{
+    width: 24px;
+    height: 24px;
+    border-radius: 1.25em;
+    border: 2px solid $grey-color;
+    position: relative;
+  }
+}
+.payment-option-collapsible{
+  display: none;
+}
+
+

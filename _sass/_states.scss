@@ -10,12 +10,13 @@
   }
 }
 .has-error{
-  input[type=text]{
+  input[type=text], select{
     border-color: $status-warning;
     &:focus{
       border-color: $status-warning;
     }
   }
+
 }
 .text-error{
   color: $status-warning;
@@ -29,5 +30,32 @@
       opacity: 1;
     }
 
+  }
+}
+
+.is-selected{
+  &.payment-option-selectable{
+    cursor: default;
+    .collection-title{
+      margin-bottom: 20px;
+    }
+    .i-round-check{
+      background-color: $brand-color;
+      border-color: $brand-color;
+      &:before{
+        background-image: url(../images/check.svg);
+        background-size: 70%;
+        background-repeat: no-repeat;
+        background-position: 50% 60%;
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 100%;
+      }
+      
+    }
+  }
+  .payment-option-collapsible{
+    display: block;
   }
 }
