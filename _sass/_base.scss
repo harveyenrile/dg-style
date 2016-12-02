@@ -76,7 +76,10 @@ img {
 
 
 small, .small{
-    font-size: $small-font-size;
+    font-size: $small-font-size !important;
+}
+.xsmall{
+    font-size: $xsmall-font-size !important;
 }
 /**
  * Figures
@@ -112,12 +115,10 @@ strong{
  */
 blockquote {
     color: $grey-color;
-    border-left: 4px solid $grey-color-light;
+    border-left: 2px solid $grey-color-light;
     padding-left: $spacing-unit / 2;
-    font-size: 18px;
-    letter-spacing: -1px;
     font-style: italic;
-
+    letter-spacing: -0.02em;
     > :last-child {
         margin-bottom: 0;
     }

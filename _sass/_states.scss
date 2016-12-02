@@ -36,9 +36,6 @@
 .is-selected{
   &.payment-option-selectable{
     cursor: default;
-    .collection-title{
-      margin-bottom: 20px;
-    }
     .i-round-check{
       background-color: $brand-color;
       border-color: $brand-color;

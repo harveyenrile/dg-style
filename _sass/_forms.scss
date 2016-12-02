@@ -37,6 +37,18 @@ select, textarea{
     border-color: $grey-color-light;
   }
 }
+.credit-card-input{
+  width: 230px;
+  position: relative;
+  .credit-card-icon{
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-100%);
+    -webkit-transform: translateY(-100%);
+    -moz-transform: translateY(-100%);
+  }
+}
 .radio,.checkbox{
   margin-right: 10px;
   display: inline-block;
@@ -86,12 +98,31 @@ textarea{
 .input-w-prefix{
   display: inline-block;
   margin-right: 10px;
+  position: relative;
+  overflow: hidden;
+  height: 40px;
+  .input-prefix{
+    padding: 0 10px;
+    box-sizing: border-box;
+    line-height: 42px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    border-right: 1px solid $grey-color;
+    color: $grey-color;
+    cursor: default;
+  }
   input[type=text],
   input[type=num]{
-    
+    padding-left: 50px;
+    &:focus + {
+      .input-prefix{
+        border-color: $brand-color;
+      }
+    }
   }
 }
-
 .ui-pill-radio{
   .ui-pill{
     display: inline-block;
@@ -115,5 +146,53 @@ textarea{
     padding: 7px 20px;
     cursor: pointer;
     transition: .1s linear all;
+  }
+}
+.toggle{
+  display: inline-block;
+  label{
+    font-size: $small-font-size;
+    font-weight: normal;
+    display: inline-block;
+    cursor: pointer;
+    vertical-align: middle;
+    margin-bottom: 0;
+  }
+  input[type="checkbox"]{
+    -webkit-appearance: none;
+    position: relative;
+    vertical-align: middle;
+    cursor: pointer;
+    &:before,
+    &:after{
+      content: "";
+      border-radius: 1.25em;
+      transition: all .3s ease;
+      display: inline-block;
+    }
+    &:before{
+      background-color: $grey-color;
+      width: 42px;
+      height: 24px;
+      position: relative;
+    }
+    &:after{
+      width: 20px;
+      height: 20px;
+      top: 2px;
+      left: 2px;
+      background-color: #fff;
+      position: absolute;
+      z-index: 2;
+    }
+    &:checked{
+      &:before{
+        background-color: $status-valid;
+      }
+      &:after{
+        transform: translateX(18px);
+        -webkit-transform: translateX(18px);
+      }
+    }
   }
 }

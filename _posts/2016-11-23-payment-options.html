@@ -25,18 +25,22 @@ permalink: /payment/
             <div class="payment-option-collapsible">
               <div class="mb20">
                 <div class="u-form-group">
-                  <div class="u-form-group">
-                    <label class="u-form-label">Mobile Number</label>
-                    <input type="text" value="">
+                  <label for="" class="u-form-label">Mobile Number</label>
+                  <div class="input-w-prefix">
+                    <input type="text">    
+                    <div class="input-prefix">+63</div>
                   </div>
                 </div>
               </div>
 
               <div class="mb20">
-                <div class="u-form-group">
+                <div class="u-form-group has-error">
                   <label class="u-form-label">Complete Address</label>
                   <input type="text" class="u-full-width" value="">
                   <div class="label-sub">(HOUSE NUMBER, SUBDIVISION, STREET)</div>
+                  <div class="text-error">
+                    Your complete address is required
+                  </div>
                 </div>  
               </div>
 
@@ -49,15 +53,13 @@ permalink: /payment/
                     </select>
                   </div>
                 </div>
-                <div class="u-form-group u-form-group-inline has-error">
+                <div class="u-form-group u-form-group-inline">
                   <label for="" class="u-form-label">Authorized Person</label>
                   <input type="text">
                   <div class="label-sub">
                     Optional
                   </div>
-                  <div class="text-error">
-                    fdsfdsd
-                  </div>
+                  
                 </div>
               </div>
               <p class="small">
@@ -66,16 +68,17 @@ permalink: /payment/
             </div>
           </div>  
         </div>
-
-
-        <div class="row payment-option-selectable is-selected clearfix">
+        
+        <div class="row payment-option-selectable has-icon is-selected clearfix">
           <div class="columns one">
             <div class="i-round-check"></div>
           </div>
           <div class="columns eleven">
             <div class="collection-title collection-title-noborder">
+              <img src="../images/mastercard-visa.png" class="payment-option-icon" alt="Mastercard and Visa" height="25">
+              
               <h4>Credit Card</h4>
-              You can now pay via One-time Payment or 0% Interest 3-Month Installment Plan
+              Avail of 3-month installment with purchases of P10,000 above
             </div>
             <div class="payment-option-collapsible">
               <div class="mb30">
@@ -92,17 +95,14 @@ permalink: /payment/
               </div>
 
               <div class="mb20">  
-                <div class="u-form-group">
+                <div class="u-form-group u-form-group-inline">
                   <label class="u-form-label">Credit Card Number</label>
-                  <input type="text" value="" class="u-full-width">
-                  <small>
-                    Your Credit Card information is secured when sent over the internet. SSL encrypts payment information so that it can’t be intercepted by a 3rd party. Deal Grocer does not store your credit card information
-                  </small>
+                  <div class="credit-card-input">
+                    <input type="text" value="" class="u-full-width">
+                    <img class="credit-card-icon" src="../images/lock-yellow.svg" width="13">  
+                  </div>
                 </div>
-              </div>
-
-              <div class="mb20">
-                <div class="u-form-group u-form-group-inline has-error">
+                <div class="u-form-group u-form-group-inline">
                   <label for="" class="u-form-label">Expiry Date</label>
                   <div class="select">
                     <select name="" id="">
@@ -116,16 +116,16 @@ permalink: /payment/
                       <option value="">2019</option>
                     </select>
                   </div>
-                  <div class="text-error">
-                    You need to enter expiry date
-                  </div>
+                  
                 </div>
                 <div class="u-form-group u-form-group-inline">
                   <label for="" class="u-form-label">CVV</label>
                   <input type="text" class="u-short-width">
                 </div>
+                <blockquote>
+                  Your Credit Card information is secured when sent over the internet. SSL encrypts payment information so that it can’t be intercepted by a 3rd party. Deal Grocer does not store your credit card information.
+                </blockquote>
               </div>
-
               <div class="mb20">
                 <div class="checkbox">
                   <input type="checkbox" id="save-credit-card-details">
@@ -134,10 +134,59 @@ permalink: /payment/
                   </label>
                 </div>
               </div>
-
             </div>
           </div>  
         </div>
+
+        <div class="row payment-option-selectable has-icon clearfix">
+          <div class="columns one">
+            <div class="i-round-check"></div>
+          </div>
+          <div class="columns eleven">
+            <div class="collection-title collection-title-noborder">
+              <img src="../images/paypal-logo.png" class="payment-option-icon" alt="Mastercard and Visa" height="29">
+              <h4>PayPal</h4>
+            </div>
+          </div>
+        </div>
+
+        <div class="row payment-option-selectable clearfix">
+          <div class="columns one">
+            <div class="i-round-check"></div>
+          </div>
+          <div class="columns eleven">
+            <div class="collection-title collection-title-noborder">
+              <h4>Online Banking</h4>
+              Pay through Banco de Oro, Bank of the Philippine Islands, Metrobank, Chinabank, Unionbank, RCBC, Eastwest, UCPB
+            </div>
+          </div>
+        </div>
+
+        <div class="row payment-option-selectable clearfix">
+          <div class="columns one">
+            <div class="i-round-check"></div>
+          </div>
+          <div class="columns eleven">
+            <div class="collection-title collection-title-noborder">
+              <h4>Over the Counter</h4>
+              Pay through Bayad Center, LBC, SM, Cebuana Lhuillier, Robinsons, ECPay, CashU
+            </div>
+          </div>
+        </div>
+
+        <div class="row payment-option-selectable has-icon clearfix">
+          <div class="columns one">
+            <div class="i-round-check"></div>
+          </div>
+          <div class="columns eleven">
+            <div class="collection-title collection-title-noborder">
+              <img src="../images/bancnet-logo.png" class="payment-option-icon" alt="Mastercard and Visa" height="25">
+              <h4>BancNet Online Banking</h4>
+            </div>
+          </div>
+        </div>
+
+
       </div>
 
       <div class="columns four payment-sidebar">
@@ -164,6 +213,43 @@ permalink: /payment/
             <strong  class="pull-right">P1,300.00</strong>
           </div>
         </div>
+        <hr>
+        <div class="promo-code-input mb10">
+          <input type="text" placeholder="Enter Promo Code">
+          <button class="ui-button ui-button-none ui-button-primary">Apply</button>
+        </div>
+        <div class="u-form-group">
+          <label for="" class="u-form-label xsmall">Available Credits</label>
+          <h2 class="light">
+            $30.00
+            <div class="toggle pull-right">
+              <input type="checkbox" id="useCredits" checked>
+              <label for="useCredits">Use Credits?</label>
+            </div>
+          </h2>  
+        </div>
+
+        <div class="mb10 clearfix">
+          <div class="pull-left">Credits Used</div>
+          <div class="pull-right">-$10.00</div>
+        </div>
+
+        <div class="mb10 clearfix">
+          <div class="pull-left">Sub Total</div>
+          <div class="pull-right">P2,520.56</div>
+        </div>
+
+        <div class="mb10 clearfix">
+          <div class="pull-left"><h3>Total</h3></div>
+          <div class="pull-right"><h3>P2,030.00</h3></div>
+        </div>
+
+        <div class="mb10 clearfix">
+          <div class="pull-left">Actual</div>
+          <div class="pull-right">$43.60</div>
+        </div>
+        <hr>
+        
         <a href="" class="ui-button ui-button-primary u-full-width">Make Payment</a>
       </div>
     </div>

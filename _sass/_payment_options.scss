@@ -21,9 +21,30 @@
     border: 2px solid $grey-color;
     position: relative;
   }
+  &.has-icon{
+    .payment-option-icon{
+      float: right;
+      margin-left: 20px;
+      // margin-bottom: 20px;
+    }
+  }
 }
 .payment-option-collapsible{
   display: none;
+  padding-top: 20px;
 }
 
-
+.promo-code-input{
+  position: relative;
+  .ui-button{
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    padding: 0 15px;
+  }
+  input[type=text]{
+    width: 100%;
+    border: none;
+  }
+}
