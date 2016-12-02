@@ -25,7 +25,7 @@ permalink: /account-page/
     <div class="container">
       <div class="columns seven">
         <div class="collection-title">
-          <h4>Profile</h4>
+          <h4>Account Settings</h4>
         </div>
         <p>
           You can only update your Full Name and Email Address once. If you need to update it after, please contact support.
@@ -41,18 +41,21 @@ permalink: /account-page/
         </div>
         <hr>
         <p>
-          Your Name and Birthdate must match the valid ID you are presenting together with the coupon.
+          Your <strong>Complete name</strong> and <strong>Birthdate</strong> must match the valid ID you are presenting together with the coupon.
         </p>
         <div class="mb20">
           <div class="u-form-group">
             <div class="u-form-group u-form-group-inline">
               <label class="u-form-label">First Name</label>
-              <input type="text" value="Harvey">
+              <input type="text" value="Harvey" disabled>
             </div>
             <div class="u-form-group u-form-group-inline">
               <label class="u-form-label">Last Name</label>
-              <input type="text" value="Enrile">
+              <input type="text" value="Enrile" disabled>
             </div>  
+            <p>
+              <a class="tooltip-link small" data-tooltip="For security reasons, changing of name is disabled. Please contact support if you need to update your name.">Why is this disabled?</a>
+            </p>
           </div>
         </div>
         <div class="mb20">
@@ -86,7 +89,7 @@ permalink: /account-page/
               <label for="female">Female</label>
             </div>
             <div class="radio">
-              <input id="male" name="gender" type="radio"> 
+              <input id="male" name="gender" type="radio" checked=""> 
               <label for="male">Male</label>
             </div>
           </form>  

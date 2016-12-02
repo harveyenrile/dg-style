@@ -1,3 +1,5 @@
+$tooltip-width: 300px;
+
 a.tooltip-link{
   text-decoration: none;
   outline: none;
@@ -72,7 +74,7 @@ a.tooltip-link{
   z-index: 1000;
   padding: 12px;
   border-radius: 4px;
-  width: 200px;
+  width: $tooltip-width;
   background-color: #000;
   background-color: rgba(0,0,0,.9);
   text-align: left !important;
