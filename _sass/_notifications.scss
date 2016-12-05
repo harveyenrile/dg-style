@@ -10,11 +10,11 @@
 .flash-message{
   margin-bottom: 20px;
 }
-.alert-block{
+.alert-block,a.alert-block{
   color: #fff;
   text-decoration: none;
   display: block;
-  padding: 20px;
+  padding: 10px;
   background-color: $grey-color-dark;
   &.alert-error{
     background-color: $status-warning;
