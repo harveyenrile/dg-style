@@ -1,0 +1,26 @@
+.review{
+  padding: 20px 0;
+  border-top: 1px solid $grey-color-light;
+}
+.review-title{
+  margin-bottom: 20px;
+  font-weight: 400;
+  font-style: italic;
+  quotes: "\201C""\201D""\2018""\2019";
+  margin-bottom: 0px;
+  &:before{
+    content: open-quote;
+  }
+  &:after{
+    content: close-quote;
+  }
+}
+.review-was-helpful{
+  margin-top: 20px;
+  .ui-button-pill{
+    margin-left: 15px;
+  }
+}
+.review-text{
+  font-style: italic;
+}
