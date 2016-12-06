@@ -29,7 +29,9 @@
     .coupon-card_actions .coupon-card_metalist{
       opacity: 1;
     }
-
+  }
+  &.ui-qty-selector-button{
+    opacity: .3;
   }
 }
 
