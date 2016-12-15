@@ -38,6 +38,7 @@ a.ui-button{
   &:active{
     background-color: darken($brand-color, 7%);
   }
+  
 }
 .ui-button-disabled{
   background-color: lighten($grey-color-dark, 35%);
@@ -52,6 +53,9 @@ a.ui-button{
     background-color: transparent;
     color: lighten($grey-color-dark, 30%);
     border-color: lighten($grey-color-dark, 30%); 
+  }
+  &.ui-button-primary{
+    background-color: lighten($brand-color, 20%);
   }
 }
 .ui-button-none{
