@@ -96,7 +96,7 @@
   height: 6px;
 }
 .dg-collection-nav{
-  background-color: $grey-color-lighter;
+  background-color: #fff;
   > .container{
     display: flex;
     display: -moz-flex;
@@ -110,7 +110,7 @@
       overflow: hidden;
       text-transform: uppercase;
       text-decoration: none;
-      font-weight: 600;
+      font-weight: 400;
       display: block;
       flex-grow: 1;
       -moz-flex-grow: 1;
@@ -118,10 +118,11 @@
       border-bottom: 2px solid transparent;
       transition: .1s linear background-color;
       &:hover{
-        background-color: darken($grey-color-lighter, 3%);
+        // background-color: darken($grey-color-lighter, 3%);
       }
       &.is_selected{
         border-bottom: 2px solid $brand-color;
+        
         &:hover{
           background-color: $grey-color-lighter;
         }
