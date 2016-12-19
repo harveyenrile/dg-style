@@ -123,9 +123,7 @@
       &.is_selected{
         border-bottom: 2px solid $brand-color;
         
-        &:hover{
-          background-color: $grey-color-lighter;
-        }
+        
       }
     }
   }
