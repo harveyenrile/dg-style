@@ -16,6 +16,10 @@
   display: block;
   padding: 15px;
   background-color: $grey-color-dark;
+  &.alert-default{
+    background-color: $status-default;
+    color: $text-color;
+  }
   &.alert-notice{
     background-color: $secondary-light-color;
     color: $text-color;
