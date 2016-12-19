@@ -14,8 +14,12 @@
   color: #fff;
   text-decoration: none;
   display: block;
-  padding: 10px;
+  padding: 15px;
   background-color: $grey-color-dark;
+  &.alert-notice{
+    background-color: $secondary-light-color;
+    color: $text-color;
+  }
   &.alert-error{
     background-color: $status-warning;
   }

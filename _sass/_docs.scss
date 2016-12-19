@@ -29,9 +29,10 @@ ul.doc-nav-list{
   margin-top: 20px;
   li{
     margin: 0 0 2px 0;
+    font-size: $small-font-size;
   }
   li > a{
-    padding: 10px;
+    padding: 7px;
     background-color: #fff;
     display: block;
     text-decoration: none;
@@ -75,5 +76,54 @@ ul.doc-nav-list{
   .ui-modal{
     display: block;
     position: relative;
+  }
+}
+
+.doc-color-box{
+  border-radius: 2px;
+  padding: 15px 30px;
+  width: 30%;
+  box-sizing: border-box;
+  margin: 5px;
+  color: #fff;
+  text-align: center;
+  display: inline-block;
+  &.doc-color-brand{
+    background-color: $brand-color;
+  }
+  &.doc-color-secondary{
+    background-color: $secondary-light-color;
+    color: $text-color;
+  }
+  &.doc-color-notify-bubble{
+    background-color: $notify-bubble-color;
+    color: $text-color;
+  }
+  &.doc-color-grey{
+    background-color: $grey-color;
+  }
+  &.doc-color-grey-light{
+    background-color: $grey-color-light;
+    color: $text-color;
+  }
+  &.doc-color-grey-lighter{
+    background-color: $grey-color-lighter;
+    color: $text-color;
+  }
+  &.doc-color-grey-dark{
+    background-color: $grey-color-dark;
+  }
+  &.doc-color-status-highlight{
+    background-color: $status-highlight;
+  }
+  &.doc-color-status-default{
+    background-color: $status-default;
+    color: $text-color;
+  }
+  &.doc-color-status-valid{
+    background-color: $status-valid;
+  }
+  &.doc-color-status-warning{
+    background-color: $status-warning;
   }
 }
