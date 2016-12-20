@@ -26,12 +26,7 @@
     position: absolute;
     top: 10px;
     left: 10px;
-    padding: 3px 6px;
-    background-color: rgba(255,255,255,1);
-    text-transform: uppercase;
-    color: $text-color;
-    font-size: $small-font-size;
-    font-weight: 700;
+    
     
   }
   .ui-tile-price{
@@ -156,6 +151,15 @@
     margin-bottom: 15px;
     display: block;
   }
+}
+
+.tag-qty-left{
+  padding: 3px 6px;
+  background-color: rgba(255,255,255,1);
+  text-transform: uppercase;
+  color: $text-color;
+  font-size: $small-font-size;
+  font-weight: 700;
 }
 
 // location tile
