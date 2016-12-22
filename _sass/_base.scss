@@ -165,7 +165,9 @@ a.logo{
 .pull-right{
     float: right;
 }
-
+.text-error{
+  color: $status-warning;
+}
 /**
  * Clearfix
  */

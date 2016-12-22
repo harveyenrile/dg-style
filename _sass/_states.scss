@@ -18,9 +18,7 @@
   }
 
 }
-.text-error{
-  color: $status-warning;
-}
+
 .is-disabled{
   &.coupon-card{
     .tile-thumbnail, .coupon-card_name, .coupon-card_name + strong, .coupon-card_metalist{
@@ -56,5 +54,11 @@
   }
   .payment-option-collapsible{
     display: block;
+  }
+  &.filter-pill{
+    background-color: $grey-color-light;
+    color: $text-color;
+    text-decoration: none;
+    cursor: default;
   }
 }
