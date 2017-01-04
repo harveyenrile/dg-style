@@ -36,3 +36,13 @@
     right: -36px;
   }
 }
+.merchant-collections-slider:hover{
+  .ui-tile-merchant{
+    opacity: .7;
+    transition: .15s linear opacity;
+  }
+  .ui-tile-merchant:hover{
+    opacity: 1;
+    transition: .15s linear opacity;
+  }
+}
