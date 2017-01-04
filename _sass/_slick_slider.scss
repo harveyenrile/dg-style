@@ -36,12 +36,18 @@
     right: -36px;
   }
 }
-.merchant-collections-slider:hover{
-  .ui-tile-merchant{
+.merchant-collections-slider:hover,
+.collections-slider:hover,
+.featured-location-tiles-slider:hover{
+  .ui-tile-merchant,
+  .ui-tile-collection,
+  .ui-tile-location{
     opacity: .7;
     transition: .15s linear opacity;
   }
-  .ui-tile-merchant:hover{
+  .ui-tile-merchant:hover,
+  .ui-tile-collection:hover,
+  .ui-tile-location:hover{
     opacity: 1;
     transition: .15s linear opacity;
   }

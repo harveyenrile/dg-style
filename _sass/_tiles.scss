@@ -139,6 +139,7 @@
   text-decoration: none;
   outline: none;
   vertical-align: top;
+  transition: .15s linear opacity;
   .ui-tile-collection-thumb-grid img{
     float: left;
     width: 50%;
@@ -185,6 +186,7 @@
   text-decoration: none;
   background-position: center;
   position: relative;
+  transition: .15s linear opacity;
   > strong{
     z-index: 1;
     position: relative;
