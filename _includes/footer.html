@@ -39,33 +39,45 @@
 <script src="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
 <script>
   $(document).ready(function(){
-  $('.payment-option-selectable').click(function(){
-    $('.payment-option-selectable').removeClass('is-selected');
-    $(this).addClass('is-selected');
-  });
-  $('.featured-location-tiles-slider').slick({
-    slidesToShow: 4,
-    arrows: true,
-    infinite: false,
-  });
-  $('.collections-slider').slick({
-    slidesToShow: 4,
-    infinite: false,
-    arrows: true,
-  });
-  $('.merchant-collections-slider').slick({
-    slidesToShow: 4,
-    infinite: false,
-    arrows: true
-  })
-  $('ul.nav-tabs li').click(function(){
-    $('ul.nav-tabs li').removeClass('is-active');
-    $(this).addClass('is-active');
-  })
-  $('.filter-pill').click(function(){
-    $('.filter-pill').removeClass('is-selected');
-    $(this).addClass('is-selected');
-  });
+    $('.payment-option-selectable').click(function(){
+      $('.payment-option-selectable').removeClass('is-selected');
+      $(this).addClass('is-selected');
+    });
+    $('.splash-hero-slider').slick({
+      slidesToShow: 1,
+      infinite: true,
+      arrows: true,
+      draggable: false,
+      autoplay: true,
+      autoplaySpeed: 5000,
+      pauseOnHover: false,
+      pauseOnFocus: true,
+      fade: true
+    });
+    $('.featured-location-tiles-slider').slick({
+      slidesToShow: 4,
+      arrows: true,
+      infinite: false,
+    });
+    $('.collections-slider').slick({
+      slidesToShow: 4,
+      infinite: false,
+      arrows: true,
+    });
+    
+    $('.merchant-collections-slider').slick({
+      slidesToShow: 4,
+      infinite: false,
+      arrows: true
+    })
+    $('ul.nav-tabs li').click(function(){
+      $('ul.nav-tabs li').removeClass('is-active');
+      $(this).addClass('is-active');
+    })
+    $('.filter-pill').click(function(){
+      $('.filter-pill').removeClass('is-selected');
+      $(this).addClass('is-selected');
+    });
 
 })
 </script>

@@ -38,7 +38,6 @@ a.ui-button{
   &:active{
     background-color: darken($brand-color, 7%);
   }
-  
 }
 .ui-button-disabled{
   background-color: lighten($grey-color-dark, 35%);
@@ -69,8 +68,8 @@ a.ui-button{
 }
 .ui-button-o{
   background-color: transparent;
-  border: 1px solid $grey-color-dark;
   box-shadow: none;
+  border: 1px solid $grey-color-dark;
   height: 40px;
   line-height: 1.2;
   color: $grey-color-dark;
@@ -113,6 +112,15 @@ a.ui-button{
   line-height: $base-line-height;
   font-family: $base-font-family;
 }
-.ui-button-payment{
-  
+.ui-button-hero{
+  border: 1px solid #fff;
+  color :#fff;
+  height: 40px;
+  line-height: 1.2;
+  font-weight: normal;
+  background-color: transparent;
+  box-shadow: none;
+  &:hover, &:active, &:visited, &:focus{
+    background-color: transparent;
+  }
 }
