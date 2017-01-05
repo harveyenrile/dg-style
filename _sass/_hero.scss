@@ -12,6 +12,9 @@
     font-weight: 300;
     font-size: 20px;
   }
+  &.location-hero{
+    min-height: 250px !important;
+  }
   &.home-hero-content-center{
     .hero-content{
       transform: translateY(-50%);
@@ -23,7 +26,7 @@
     color: #fff;
     min-height: 350px;
     background-size: cover;
-    background-position: center;
+    background-position: center 50%;
     .hero-content{
       position: absolute;
       bottom: 12%;
