@@ -14,6 +14,7 @@
   }
 }
 .media-item{
+  position: relative;
   .media-thumbnail{
     padding-right: 10px;
   }
@@ -25,5 +26,11 @@
   .media-content{
     overflow: hidden;
     zoom: 1;
+  }
+  .close{
+    position: absolute;
+    right: 15px;
+    top: 50%;
+
   }
 }
