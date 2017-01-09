@@ -12,7 +12,7 @@
   }
 }
 .table-row-header{
-  h5, h6{
+  h5, h6,h2{
     margin-bottom: 0;
   }
 }
@@ -23,4 +23,21 @@
     width: 280px;
     text-align: right;
   }
+}
+
+// Installments table
+.table-installments{
+  border: 1px solid $grey-color-light;
+  margin-bottom: 20px;
+  .table-cell{
+    padding: 20px;
+    border-top: 1px solid $grey-color-light;
+  }
+}
+.table-reference-header{
+  background-color: $grey-color-lighter;
+  padding: 20px;
+}
+.table-cell-installment-date{
+  width: 280px;
 }
