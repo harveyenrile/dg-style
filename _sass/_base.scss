@@ -140,40 +140,7 @@ a.logo{
     margin-top: 15px;
     text-indent: -9999px;
 }
-.u-full-width{
-    width: 100%;
-    box-sizing: border-box;
-}
-.u-short-width{
-    width: 80px;
-}
-.see-more{
-    font-weight: 700;
-}
-.text-muted{
-    color: $grey-color-dark;
-}
-.text-warning{
-    color: $status-warning;
-}
-.text-right{
-    text-align: right;
-}
-.text-large{
-    font-size: 120%;
-}
-.pull-left{
-    float: left;
-}
-.pull-right{
-    float: right;
-}
-.text-error{
-  color: $status-warning;
-}
-/**
- * Clearfix
- */
+
 ul.styled-list{
     margin-left: 20px;
     li{

@@ -1,3 +1,14 @@
+.table-bordered{
+  .table-cell{
+    padding: 10px 0;
+    border-top: 1px solid $grey-color-light;
+  }
+  .table-row-header{
+    .table-cell{
+      border: none;  
+    }
+  }
+}
 .table-row{
   width: 100%;
   display: table;

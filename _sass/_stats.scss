@@ -1,0 +1,12 @@
+.stats{
+  display: block;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+}
+.stats-label{
+  margin-bottom: 0;
+}
+.stats-value{
+  font-size: $xxxlarge-font-size;
+  font-weight: 300;
+}

@@ -1,0 +1,37 @@
+.u-full-width{
+    width: 100%;
+    box-sizing: border-box;
+}
+.u-short-width{
+    width: 80px;
+}
+.see-more{
+    font-weight: 700;
+}
+.text-muted{
+    color: $grey-color-dark;
+}
+.text-underline{
+    text-decoration: underline;
+}
+.text-warning{
+    color: $status-warning;
+}
+.text-success{
+    color: $status-valid;
+}
+.text-right{
+    text-align: right;
+}
+.text-large{
+    font-size: 120%;
+}
+.pull-left{
+    float: left;
+}
+.pull-right{
+    float: right;
+}
+.text-error{
+  color: $status-warning;
+}
