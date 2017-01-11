@@ -56,9 +56,10 @@
     display: block;
   }
   &.filter-pill{
-    background-color: $grey-color-light;
+    background-color: $grey-color-lighter;
     color: $text-color;
-    text-decoration: none;
+    text-decoration: none !important;
     cursor: default;
+
   }
 }
